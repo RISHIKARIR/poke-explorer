@@ -1,0 +1,54 @@
+# poke-explorer
+A pokemon web app which i created using html,css and js and i have taken the help of chatgpt...... in this Web app you can filter pokemon according to their type and also get them by searching their name
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeSearch</title>
+
+<link rel="stylesheet" href="poke.css">
+
+</head>
+<body>
+
+  <div id="search"> 
+    <div id="heading">
+  <h1>Pokèmon Explorer</h1>
+<img src="pokeball.jpg" id="pokeball">
+</div>
+<input type="text" placeholder="Search the Pokemon" id="searchbar">
+<button id="search-btn">Search</button>
+<select id="types" name="Type">
+    <option value="All">All</option>
+    <option value="Fire">fire🔥</option>
+    <option value="Water">water🌊</option>
+    <option value="Grass">grass🍃</option>
+    <option value="Rock">rock🗿</option>
+    <option value="Bug">bug🐛</option>
+    <option value="Normal">normal</option>
+    <option value="Poison">poison☣️</option>
+    <option value="Electric">electric⚡</option>
+    <option value="Ground">ground🟤</option>
+    <option value="Fairy">fairy🧚‍♀️</option>
+    <option value="Fighting">fighting🥊</option>
+    <option value="Psychic">psychic🔮</option>
+    <option value="Ghost">ghost👻</option>
+    <option value="Ice">ice🥶</option>
+    <option value="Dragon">dragon🐉</option>
+    <option value="Dark">dark⚫</option>
+
+</select>
+</div>
+<div id="container">
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script src="poke.js"></script>
+</body>
+</html>
