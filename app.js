@@ -5,6 +5,8 @@ let search = document.querySelector("#searchbar");
 let search_btn = document.querySelector("#search-btn");
 let pokelist=[];
 
+
+let pokemons = axios.get(url);
 async function poke(){
 
 //Pokemons fetching
