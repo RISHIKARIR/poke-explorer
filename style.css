@@ -42,7 +42,7 @@ padding-left: 20px;
 
 #heading{
     display: flex;
-    margin-left: 300px;
+    justify-content:center;
 }
 
 
